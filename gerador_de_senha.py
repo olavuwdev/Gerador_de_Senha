@@ -9,3 +9,4 @@ size = 8
 key = low_case + upper_case + number + caracters
 
 password = "".join(random.sample(key, size))
+print(f'Sua senha segura é {password}')

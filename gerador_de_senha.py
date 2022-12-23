@@ -1,7 +1,7 @@
 import random
 
-low_case = 'ABCDEFGHIJKLMOPQRSTUXYWZ'
-upper_case = low_case.upper()
+upper_case = 'ABCDEFGHIJKLMOPQRSTUXYWZ'
+low_case = upper_case.lower()
 number = '1234567890'
 caracters = '*&$#@!*()+{^`'
 size = 8

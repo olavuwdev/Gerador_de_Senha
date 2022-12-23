@@ -8,4 +8,4 @@ size = 8
 
 key = low_case + upper_case + number + caracters
 
-password = key.join
+password = "".join(random.sample(key, size))
